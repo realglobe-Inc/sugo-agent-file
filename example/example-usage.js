@@ -12,15 +12,19 @@ co(function * () {
     /* ... */
   }
 
-  // Read / Write files
+  // Access dynamic files
   {
+    // Write
     yield agent.write('my-text-01.txt', 'This is the text.')
+    // Read
     let content = yield agent.read('my-text-01.txt')
     console.log(content)
     /* ... */
+    // Check
     let exists = yield agent.exists('my-text-01.text')
     if (exists) {
-      yield agent.del('my-text-01.txt')
+      // Delete
+      yield agent.delete('my-text-01.txt')
     }
   }
 }).catch((err) => console.error(err))
