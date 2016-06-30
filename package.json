@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "description": "Client for sugo-endpoint-file",
   "main": "lib",
-  "browser": "browser",
+  "browser": "sims/browser",
   "scripts": {
     "prepublish": "./ci/build.js && ./ci/browser.js",
     "test": "./ci/test.js"
@@ -35,7 +35,7 @@
     "sugo-agent-base": "^1.0.2",
     "sugo-endpoint-file": "^1.0.3",
     "sugos-assets": "^1.1.5",
-    "sugos-ci": "^1.4.2"
+    "sugos-ci": "^1.4.5"
   },
   "engines": {
     "node": ">=6",
