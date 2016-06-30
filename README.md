@@ -69,6 +69,8 @@ $ npm install sugo-agent-file --save
 Usage
 ---------
 
+Use this agent to access a sg-server (or SUGO-Cloud) which uses [sugo-endpoint-file][sugo_endpoint_file_url] plugin.
+
 ```javascript
 'use strict'
 
@@ -126,6 +128,10 @@ This software is released under the [MIT License](https://github.com/realglobe-I
 Links
 ------
 
-+ [sugos](https://github.com/realglobe-Inc/sugos)
++ [sugos][sugos_url]
++ [sugo-endpoint-file][sugo_endpoint_file_url]
+
+[sugos_url]: https://github.com/realglobe-Inc/sugos
+[sugo_endpoint_file_url]: https://github.com/realglobe-Inc/sugo-endpoint-file
 
 <!-- Links End -->
