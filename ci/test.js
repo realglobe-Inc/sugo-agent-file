@@ -11,3 +11,4 @@ process.chdir(`${__dirname}/..`)
 const { agentTest } = require('sugos-ci')
 
 agentTest({})
+
