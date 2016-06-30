@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "Client for sugo-endpoint-file",
   "main": "lib",
+  "browser": "browser",
   "scripts": {
     "prepublish": "./ci/build.js && ./ci/browser.js",
     "test": "./ci/test.js"
@@ -30,7 +31,7 @@
     "ape-tmpl": "^5.0.11",
     "coz": "^6.0.3",
     "injectmock": "^2.0.0",
-    "sg-server": "^1.2.4",
+    "sg-server": "^1.2.5",
     "sugo-agent-base": "^1.0.2",
     "sugo-endpoint-file": "^1.0.3",
     "sugos-assets": "^1.1.5",
