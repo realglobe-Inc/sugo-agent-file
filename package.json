@@ -1,6 +1,6 @@
 {
   "name": "sugo-agent-file",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Client for sugo-endpoint-file",
   "main": "lib",
   "browser": "shim/browser",
