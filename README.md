@@ -71,7 +71,7 @@ $ npm install sugo-agent-file --save
 Usage
 ---------
 
-Use this agent to access a sg-server (or SUGO-Cloud) which uses [sugo-endpoint-file][sugo_endpoint_file_url] plugin.
+Use this agent to access a sg-server (or SUGO-Hub) which uses [sugo-endpoint-file][sugo_endpoint_file_url] plugin.
 
 ```javascript
 'use strict'
